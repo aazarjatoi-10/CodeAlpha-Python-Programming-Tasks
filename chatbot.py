@@ -7,7 +7,10 @@ def basic_ChatBot():
 
         user_query = input("You: ").lower()
 
-        if user_query == "who are you?":
+        if user_query == "how are you?":
+            print("Bot: I'm Fine , Thank you.")
+            
+        elif user_query == "who are you?":
             print("Bot: I am a rule-based chatbot.")
 
         elif user_query == "who created you?":
