@@ -1,6 +1,6 @@
 def basic_ChatBot():
 
-    print("--- Mini ChatBot 2.0 ---\n")
+    print("\n--- Mini ChatBot 2.0 ---\n")
     print("Bot: Hey, how can I help you?")
     
     while True:
@@ -9,7 +9,7 @@ def basic_ChatBot():
 
         if user_query == "how are you?":
             print("Bot: I'm Fine , Thank you.")
-            
+
         elif user_query == "who are you?":
             print("Bot: I am a rule-based chatbot.")
 
